@@ -6,7 +6,7 @@ class Michi extends React.Component{
         super(props);
         //como usar atributo---------------????
         var gto=props.gatito;
-        alert("la edad eredada es: " +gto.edad)
+        alert("la edad heredada es: " +gto.edad)
 
     }
   
