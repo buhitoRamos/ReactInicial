@@ -2,10 +2,11 @@ import React from 'react'
 import cachuImg from '../imagenes/caca.png'
 import './Style/Michis.css'
 class Michi extends React.Component{    
+    
     constructor(props){
         super(props);
         //como usar atributo---------------????
-        var gto=props.gatito;
+        var gto=this.props.gatito;
         alert("la edad heredada es: " +gto.edad)
 
     }
@@ -26,7 +27,7 @@ class Michi extends React.Component{
                 
                 <h1 className='h1'> este es un componente cachuzo</h1>
                 <br></br> 
-    <h2>el nombre es: {this.$.gto.nombre} </h2>                             
+                <h2>el nombre es: {this.props.gatito.nombre} </h2>                             
                 <img src={cachuImg} className='img'/>
                 <br></br>
                 

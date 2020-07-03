@@ -20,8 +20,7 @@ var gatito= {
 //aca agrego mis webs components
 const contenido = (
   <div>
-   <Michi
-   gatito={gatito} />
+   <Michi gatito={gatito} />
 
   </div>
 )
