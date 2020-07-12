@@ -10,17 +10,25 @@ import React from 'react'
 import ReactDom from 'react-dom'
 import Michi from './componentes/michi'
 import 'bootstrap/dist/css/bootstrap.css'
+import Wellcome from './componentes/Wellcome'
+import PrimaryPage from './pages/PrimaryPage'
 
-var gatito= {
+const cachu= {
   nombre: 'Cachuza',
   edad: 6
+}
+const peri={
+  nombre: 'Perico',
+  edad: 4
 }
 
 
 //aca agrego mis webs components
 const contenido = (
   <div>
-   <Michi gatito={gatito} />
+   <Michi gatito={cachu} />
+   <Michi gatito={peri} />
+   <PrimaryPage gatito={peri}/>
 
   </div>
 )

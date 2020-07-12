@@ -2,20 +2,33 @@
     background-color: blue;
     display: inline;
     color: cornsilk;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+}
+.h1b{
+    background-color:darkcyan;
+    display: inline;
+    color: cornsilk;
+   
+    
 }
 .input{
     display: inline-block;
 }
-.img{
-    display: inline-block
+.img{    
+        display:block;
+        margin:auto;
+        
     
 }
 .button{
 color:blue;
 height: 40px;
-width: 60px;
+width: 90px;
+margin-right: 20px;
 }
-.input{
+.inputB{
     background-color: blue;
     display: inline;
     color: cornsilk;
